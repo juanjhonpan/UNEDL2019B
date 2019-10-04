@@ -1,0 +1,47 @@
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Compare the triplets.csprojAssemblyReference.cache
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\staticwebassets\Compare the triplets.StaticWebAssets.Manifest.cache
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\staticwebassets\Compare the triplets.StaticWebAssets.xml
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Compare the triplets.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Compare the triplets.RazorComponent.input.cache
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\RazorDeclaration\App.razor.g.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\Error.razor.g.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\bin\Debug\netcoreapp3.0\Compare the triplets.exe
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\bin\Debug\netcoreapp3.0\Compare the triplets.deps.json
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\bin\Debug\netcoreapp3.0\Compare the triplets.runtimeconfig.json
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\bin\Debug\netcoreapp3.0\Compare the triplets.runtimeconfig.dev.json
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\bin\Debug\netcoreapp3.0\Compare the triplets.dll
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\bin\Debug\netcoreapp3.0\Compare the triplets.pdb
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\bin\Debug\netcoreapp3.0\Compare the triplets.Views.dll
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\bin\Debug\netcoreapp3.0\Compare the triplets.Views.pdb
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\RazorDeclaration\Compare the triplets.dll
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Compare the triplets.TagHelpers.input.cache
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Compare the triplets.TagHelpers.output.cache
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Compare the triplets.RazorCoreGenerate.cache
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Razor\App.razor.g.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Razor\Pages\Counter.razor.g.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Razor\Pages\Error.razor.g.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Razor\Pages\FetchData.razor.g.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Razor\Pages\Index.razor.g.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Razor\_Imports.razor.g.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Compare the triplets.RazorAssemblyInfo.cache
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Compare the triplets.RazorAssemblyInfo.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Compare the triplets.AssemblyInfoInputs.cache
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Compare the triplets.AssemblyInfo.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Compare the triplets.RazorTargetAssemblyInfo.cache
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Compare the triplets.RazorTargetAssemblyInfo.cs
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Compare the triplets.Views.pdb
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Compare the triplets.dll
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Compare the triplets.pdb
+C:\Users\badop\UNEDL2019B\Console\Compare the triplets\obj\Debug\netcoreapp3.0\Compare the triplets.csproj.CopyComplete

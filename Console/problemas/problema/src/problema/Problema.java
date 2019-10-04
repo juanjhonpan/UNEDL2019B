@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package recorridomatriz;
+package problema;
 
 import java.io.*;
 import java.math.*;
@@ -53,10 +53,10 @@ return total;
 
 }
 
-public class RecorridoMatriz {
+public class Problema {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("C:\\Users\\badop\\RecorridoMatriz.txt"));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(("C:\\Users\\badop\\UNEDL2019B\\Console\\problemas\\problema\\respuesta.txt")));
 
         int n = Integer.parseInt(bufferedReader.readLine().trim());
 
