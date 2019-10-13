@@ -1,0 +1,11 @@
+C:\Users\badop\UNEDL2019B\Console\collections\bin\Debug\netcoreapp3.0\collections.exe
+C:\Users\badop\UNEDL2019B\Console\collections\bin\Debug\netcoreapp3.0\collections.deps.json
+C:\Users\badop\UNEDL2019B\Console\collections\bin\Debug\netcoreapp3.0\collections.runtimeconfig.json
+C:\Users\badop\UNEDL2019B\Console\collections\bin\Debug\netcoreapp3.0\collections.runtimeconfig.dev.json
+C:\Users\badop\UNEDL2019B\Console\collections\bin\Debug\netcoreapp3.0\collections.dll
+C:\Users\badop\UNEDL2019B\Console\collections\bin\Debug\netcoreapp3.0\collections.pdb
+C:\Users\badop\UNEDL2019B\Console\collections\obj\Debug\netcoreapp3.0\collections.csprojAssemblyReference.cache
+C:\Users\badop\UNEDL2019B\Console\collections\obj\Debug\netcoreapp3.0\collections.AssemblyInfoInputs.cache
+C:\Users\badop\UNEDL2019B\Console\collections\obj\Debug\netcoreapp3.0\collections.AssemblyInfo.cs
+C:\Users\badop\UNEDL2019B\Console\collections\obj\Debug\netcoreapp3.0\collections.dll
+C:\Users\badop\UNEDL2019B\Console\collections\obj\Debug\netcoreapp3.0\collections.pdb
