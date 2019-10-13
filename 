@@ -1,0 +1,55 @@
+[33mcommit d62496b43cc5773288d50d546600c8ca4b29befb[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Juan Pablo Garcia Benitez <badopokor@hotmail.com>
+Date:   Sun Oct 13 10:35:30 2019 -0500
+
+    cuarto intento
+
+[33mcommit 049fcbe81b2f83e9cb94a84974dc227ba74357d2[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Juan Pablo Garcia Benitez <badopokor@hotmail.com>
+Date:   Fri Oct 4 08:27:54 2019 -0500
+
+    Subiendo RecorridoMatriz.java por tercera vez
+
+[33mcommit dd066130b69117cf28f392a8961989242508fb8e[m
+Author: Juan Pablo Garcia Benitez <badopokor@hotmail.com>
+Date:   Fri Sep 20 13:12:23 2019 -0500
+
+    tercero
+
+[33mcommit 3a268a7a8dca6efa8f5efaa07f1d358c173aa1d1[m
+Merge: 203bddb 541b553
+Author: Juan Pablo Garcia Benitez <badopokor@hotmail.com>
+Date:   Wed Sep 11 09:35:41 2019 -0500
+
+    Merge branch 'master' of https://github.com/juanjhonpan/UNEDL2019B
+    Trabajando con git
+
+[33mcommit 203bddbb1c510ae93178efaeda760be1f747654d[m
+Author: Juan Pablo Garcia Benitez <badopokor@hotmail.com>
+Date:   Wed Sep 11 09:28:31 2019 -0500
+
+    RecorridoMatriz
+
+[33mcommit 541b5533ac1cda81c103656b531db25722ab30fb[m
+Author: juanjhonpan <54988868+juanjhonpan@users.noreply.github.com>
+Date:   Tue Sep 10 22:50:25 2019 -0500
+
+    Add files via upload
+
+[33mcommit ec2f1f9f3de98bb8282a597920a70dca485ce609[m
+Author: juanjhonpan <54988868+juanjhonpan@users.noreply.github.com>
+Date:   Mon Sep 9 09:51:51 2019 -0500
+
+    Add files via upload
+
+[33mcommit 534883c9e6ecd9c203ca96570a8c88d3f7f41fa4[m
+Author: Juan Pablo Garcia Benitez <badopokor@hotmail.com>
+Date:   Mon Sep 9 09:32:45 2019 -0500
+
+    inicial
+
+[33mcommit 0147ea174c38d24a589628ca767e5b201e10c52d[m
+Author: juanjhonpan <54988868+juanjhonpan@users.noreply.github.com>
+Date:   Fri Sep 6 08:45:23 2019 -0500
+
+    Initial commit

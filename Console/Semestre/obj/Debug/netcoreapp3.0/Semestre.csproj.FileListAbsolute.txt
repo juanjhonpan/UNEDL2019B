@@ -1,0 +1,11 @@
+C:\Users\badop\UNEDL2019B\Console\Semestre\bin\Debug\netcoreapp3.0\Semestre.exe
+C:\Users\badop\UNEDL2019B\Console\Semestre\bin\Debug\netcoreapp3.0\Semestre.deps.json
+C:\Users\badop\UNEDL2019B\Console\Semestre\bin\Debug\netcoreapp3.0\Semestre.runtimeconfig.json
+C:\Users\badop\UNEDL2019B\Console\Semestre\bin\Debug\netcoreapp3.0\Semestre.runtimeconfig.dev.json
+C:\Users\badop\UNEDL2019B\Console\Semestre\bin\Debug\netcoreapp3.0\Semestre.dll
+C:\Users\badop\UNEDL2019B\Console\Semestre\bin\Debug\netcoreapp3.0\Semestre.pdb
+C:\Users\badop\UNEDL2019B\Console\Semestre\obj\Debug\netcoreapp3.0\Semestre.csprojAssemblyReference.cache
+C:\Users\badop\UNEDL2019B\Console\Semestre\obj\Debug\netcoreapp3.0\Semestre.AssemblyInfoInputs.cache
+C:\Users\badop\UNEDL2019B\Console\Semestre\obj\Debug\netcoreapp3.0\Semestre.AssemblyInfo.cs
+C:\Users\badop\UNEDL2019B\Console\Semestre\obj\Debug\netcoreapp3.0\Semestre.dll
+C:\Users\badop\UNEDL2019B\Console\Semestre\obj\Debug\netcoreapp3.0\Semestre.pdb
