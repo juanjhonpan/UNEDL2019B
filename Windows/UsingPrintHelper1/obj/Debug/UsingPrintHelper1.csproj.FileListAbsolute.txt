@@ -1,0 +1,12 @@
+C:\Users\badop\UNEDL2019B\Windows\UsingPrintHelper1\bin\Debug\UsingPrintHelper1.exe.config
+C:\Users\badop\UNEDL2019B\Windows\UsingPrintHelper1\bin\Debug\UsingPrintHelper1.exe
+C:\Users\badop\UNEDL2019B\Windows\UsingPrintHelper1\bin\Debug\UsingPrintHelper1.pdb
+C:\Users\badop\UNEDL2019B\Windows\UsingPrintHelper1\obj\Debug\UsingPrintHelper1.csprojAssemblyReference.cache
+C:\Users\badop\UNEDL2019B\Windows\UsingPrintHelper1\obj\Debug\UsingPrintHelper1.Form1.resources
+C:\Users\badop\UNEDL2019B\Windows\UsingPrintHelper1\obj\Debug\UsingPrintHelper1.Properties.Resources.resources
+C:\Users\badop\UNEDL2019B\Windows\UsingPrintHelper1\obj\Debug\UsingPrintHelper1.csproj.GenerateResource.cache
+C:\Users\badop\UNEDL2019B\Windows\UsingPrintHelper1\obj\Debug\UsingPrintHelper1.exe
+C:\Users\badop\UNEDL2019B\Windows\UsingPrintHelper1\obj\Debug\UsingPrintHelper1.pdb
+C:\Users\badop\UNEDL2019B\Windows\UsingPrintHelper1\obj\Debug\UsingPrintHelper1.About.resources
+C:\Users\badop\UNEDL2019B\Windows\UsingPrintHelper1\obj\Debug\UsingPrintHelper1.PrintHelper.resources
+C:\Users\badop\UNEDL2019B\Windows\UsingPrintHelper1\obj\Debug\UsingPrintHelper1.Registro.resources

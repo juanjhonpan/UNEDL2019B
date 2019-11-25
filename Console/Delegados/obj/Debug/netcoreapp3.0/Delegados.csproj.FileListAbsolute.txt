@@ -1,0 +1,11 @@
+C:\Users\badop\UNEDL2019B\Console\Delegados\bin\Debug\netcoreapp3.0\Delegados.exe
+C:\Users\badop\UNEDL2019B\Console\Delegados\bin\Debug\netcoreapp3.0\Delegados.deps.json
+C:\Users\badop\UNEDL2019B\Console\Delegados\bin\Debug\netcoreapp3.0\Delegados.runtimeconfig.json
+C:\Users\badop\UNEDL2019B\Console\Delegados\bin\Debug\netcoreapp3.0\Delegados.runtimeconfig.dev.json
+C:\Users\badop\UNEDL2019B\Console\Delegados\bin\Debug\netcoreapp3.0\Delegados.dll
+C:\Users\badop\UNEDL2019B\Console\Delegados\bin\Debug\netcoreapp3.0\Delegados.pdb
+C:\Users\badop\UNEDL2019B\Console\Delegados\obj\Debug\netcoreapp3.0\Delegados.csprojAssemblyReference.cache
+C:\Users\badop\UNEDL2019B\Console\Delegados\obj\Debug\netcoreapp3.0\Delegados.AssemblyInfoInputs.cache
+C:\Users\badop\UNEDL2019B\Console\Delegados\obj\Debug\netcoreapp3.0\Delegados.AssemblyInfo.cs
+C:\Users\badop\UNEDL2019B\Console\Delegados\obj\Debug\netcoreapp3.0\Delegados.dll
+C:\Users\badop\UNEDL2019B\Console\Delegados\obj\Debug\netcoreapp3.0\Delegados.pdb
