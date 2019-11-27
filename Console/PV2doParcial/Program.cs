@@ -7,6 +7,7 @@ namespace PV2doParcial
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("ingresa la ecuacion ");//pide ingresa de datos 
             String s = Console.ReadLine();//pedimos ingresardatos
             Stack paretnesis = new Stack();//arraylist que comparara
