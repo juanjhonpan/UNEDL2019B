@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -49,14 +50,55 @@ repositorio y escriba el SHA correspondiente en el examen
 
 namespace TPV2doParcial
 {
+
     public partial class Form1 : Form
     {
+        ArrayList Lista = new ArrayList();
+        int u=0;
         public Form1()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            String cadena ;
+            cadena = boxName.Text;
+            Lista.Add(cadena);
+            MessageBox.Show("agregado");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int m = 0;
+            for(int x = 0; x < Lista.Count; x++)
+            {
+                for (int l = 0; l < Lista.Count; l++)
+                {
+
+                    if (Lista.IndexOf(x) == Lista.IndexOf(l) && l!=x)
+                    {
+                        u++;
+                    }
+            }
+            }
+            m = Lista.Count - u;
+            label2.Text = "estas son la cantidad de palabras totales: " + Lista.Count;
+            label1.Text = "estas son las palabras totales repetidas: "+u;
+            label3.Text = "estas son las palabras ocurrentes: " + m;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
