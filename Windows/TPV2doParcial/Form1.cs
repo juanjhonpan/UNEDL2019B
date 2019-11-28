@@ -54,6 +54,7 @@ namespace TPV2doParcial
     public partial class Form1 : Form
     {
         ArrayList Lista = new ArrayList();
+        ArrayList Lista2 = new ArrayList();
         int u=0;
         public Form1()
         {
@@ -74,24 +75,24 @@ namespace TPV2doParcial
         {
             String cadena ;
             cadena = boxName.Text;
+            for (int l = 0; l < Lista.Count; l++)
+            {
+                if (Lista.Contains(cadena))
+                {
+                    u = u + 1;
+                    Lista2.Add(cadena);
+                    MessageBox.Show("caca");
+                    break;
+                }
+            }
             Lista.Add(cadena);
             MessageBox.Show("agregado");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("nenas "+Lista.IndexOf(0));
             int m = 0;
-            for(int x = 0; x < Lista.Count; x++)
-            {
-                for (int l = 0; l < Lista.Count; l++)
-                {
-
-                    if (Lista.IndexOf(x) == Lista.IndexOf(l) && l!=x)
-                    {
-                        u++;
-                    }
-            }
-            }
             m = Lista.Count - u;
             label2.Text = "estas son la cantidad de palabras totales: " + Lista.Count;
             label1.Text = "estas son las palabras totales repetidas: "+u;
