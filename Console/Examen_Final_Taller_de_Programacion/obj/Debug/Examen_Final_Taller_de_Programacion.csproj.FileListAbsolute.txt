@@ -1,0 +1,8 @@
+C:\Users\badop\UNEDL2019B\Console\Examen_Final_Taller_de_Programacion\bin\Debug\Examen_Final_Taller_de_Programacion.exe.config
+C:\Users\badop\UNEDL2019B\Console\Examen_Final_Taller_de_Programacion\bin\Debug\Examen_Final_Taller_de_Programacion.exe
+C:\Users\badop\UNEDL2019B\Console\Examen_Final_Taller_de_Programacion\bin\Debug\Examen_Final_Taller_de_Programacion.pdb
+C:\Users\badop\UNEDL2019B\Console\Examen_Final_Taller_de_Programacion\obj\Debug\Examen_Final_Taller_de_Programacion.Form1.resources
+C:\Users\badop\UNEDL2019B\Console\Examen_Final_Taller_de_Programacion\obj\Debug\Examen_Final_Taller_de_Programacion.Properties.Resources.resources
+C:\Users\badop\UNEDL2019B\Console\Examen_Final_Taller_de_Programacion\obj\Debug\Examen_Final_Taller_de_Programacion.csproj.GenerateResource.cache
+C:\Users\badop\UNEDL2019B\Console\Examen_Final_Taller_de_Programacion\obj\Debug\Examen_Final_Taller_de_Programacion.exe
+C:\Users\badop\UNEDL2019B\Console\Examen_Final_Taller_de_Programacion\obj\Debug\Examen_Final_Taller_de_Programacion.pdb

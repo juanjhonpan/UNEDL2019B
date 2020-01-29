@@ -1,0 +1,9 @@
+C:\Users\badop\UNEDL2019B\Console\Examen_final_Taller\bin\Debug\Examen_final_Taller.exe.config
+C:\Users\badop\UNEDL2019B\Console\Examen_final_Taller\bin\Debug\Examen_final_Taller.exe
+C:\Users\badop\UNEDL2019B\Console\Examen_final_Taller\bin\Debug\Examen_final_Taller.pdb
+C:\Users\badop\UNEDL2019B\Console\Examen_final_Taller\obj\Debug\Examen_final_Taller.csprojAssemblyReference.cache
+C:\Users\badop\UNEDL2019B\Console\Examen_final_Taller\obj\Debug\Examen_final_Taller.Form1.resources
+C:\Users\badop\UNEDL2019B\Console\Examen_final_Taller\obj\Debug\Examen_final_Taller.Properties.Resources.resources
+C:\Users\badop\UNEDL2019B\Console\Examen_final_Taller\obj\Debug\Examen_final_Taller.csproj.GenerateResource.cache
+C:\Users\badop\UNEDL2019B\Console\Examen_final_Taller\obj\Debug\Examen_final_Taller.exe
+C:\Users\badop\UNEDL2019B\Console\Examen_final_Taller\obj\Debug\Examen_final_Taller.pdb
