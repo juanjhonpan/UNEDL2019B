@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,8 +14,6 @@ namespace Examen_final_Taller
     
     public partial class Form1 : Form
     {
-        String Nombre;
-        String Apellido;
         public Form1()
         {
             InitializeComponent();
@@ -77,7 +76,56 @@ namespace Examen_final_Taller
 
         private void btnEjecutar_Click(object sender, EventArgs e)
         {
+            String Nombre = txtNombre.Text;
+            String Apellido = txtApellido.Text;
+            String FN = dtnNacimiento.Text;
+            String Direccion = rtbDireccion.Text;
+            String Sexo = "";
+            if (rbFemenino.Checked == true)
+            {
+                Sexo = "Femenino";
+            }
+            else if (rbMasculino.Checked == true)
+            {
+                Sexo = "Masculino";
+            }
+            else if (rbOtro.Checked == true)
+            {
+                Sexo = "Otro";
+            }
 
+            String Cantidad = txtCantidad.Text;
+            String Movimiento = "";
+            if (rbDeposito.Checked == true)
+            {
+                Movimiento = "Deposito";
+            }
+            else if (rbRetiro.Checked == true)
+            {
+                Movimiento = "Retiro";
+            }
+            else if (rbConsulta.Checked == true)
+            {
+                Movimiento = "Consulta";
+            }
+
+
+
+
+
+            String registro = Nombre + "," + Apellido + "," + FN + "," + Direccion + "," + Sexo + "," + Cantidad + "," + Movimiento;
+
+            StreamWriter Escribir = new StreamWriter(@"C:\Users\badop\UNEDL2019B\Console\Examen_final_Taller\Registro.txt");
+            try
+            {
+                Escribir.WriteLine(registro);
+            }
+            catch
+            {
+                MessageBox.Show("error");
+
+            }
+            Escribir.Close();
         }
 
         private void rbFemenino_CheckedChanged(object sender, EventArgs e)
@@ -132,6 +180,21 @@ namespace Examen_final_Taller
                 rbRetiro.Checked = false;
                 rbDeposito.Checked = false;
             }
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            txtApellido.Text = "";
+            txtCantidad.Text = "";
+            txtNombre.Text = "";
+            txtSaldo.Text = "";
+            rbConsulta.Checked = false;
+            rbDeposito.Checked = false;
+            rbFemenino.Checked = false;
+            rbMasculino.Checked = false;
+            rbOtro.Checked = false;
+            rbRetiro.Checked = false;
+            rtbDireccion.Text = "";
         }
     }
 }

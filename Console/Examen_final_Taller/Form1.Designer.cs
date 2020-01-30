@@ -29,34 +29,34 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dtnNacimiento = new System.Windows.Forms.DateTimePicker();
+            this.rtbDireccion = new System.Windows.Forms.RichTextBox();
+            this.txtApellido = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.rbOtro = new System.Windows.Forms.RadioButton();
+            this.rbMasculino = new System.Windows.Forms.RadioButton();
+            this.rbFemenino = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.txtApellido = new System.Windows.Forms.TextBox();
-            this.txtCantidad = new System.Windows.Forms.TextBox();
-            this.txtSaldo = new System.Windows.Forms.TextBox();
-            this.rtbDireccion = new System.Windows.Forms.RichTextBox();
-            this.rbFemenino = new System.Windows.Forms.RadioButton();
-            this.rbMasculino = new System.Windows.Forms.RadioButton();
-            this.rbOtro = new System.Windows.Forms.RadioButton();
+            this.btnLimpiar = new System.Windows.Forms.Button();
+            this.btnEjecutar = new System.Windows.Forms.Button();
+            this.dtmEjecucion = new System.Windows.Forms.DateTimePicker();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.rbConsulta = new System.Windows.Forms.RadioButton();
             this.rbRetiro = new System.Windows.Forms.RadioButton();
             this.rbDeposito = new System.Windows.Forms.RadioButton();
-            this.dtnNacimiento = new System.Windows.Forms.DateTimePicker();
-            this.dtmEjecucion = new System.Windows.Forms.DateTimePicker();
+            this.txtSaldo = new System.Windows.Forms.TextBox();
+            this.txtCantidad = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.btnEdicion = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
-            this.btnEjecutar = new System.Windows.Forms.Button();
-            this.btnLimpiar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -81,6 +81,40 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Diseño Personales";
             // 
+            // dtnNacimiento
+            // 
+            this.dtnNacimiento.Enabled = false;
+            this.dtnNacimiento.Location = new System.Drawing.Point(165, 112);
+            this.dtnNacimiento.Name = "dtnNacimiento";
+            this.dtnNacimiento.Size = new System.Drawing.Size(254, 22);
+            this.dtnNacimiento.TabIndex = 11;
+            this.dtnNacimiento.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            // 
+            // rtbDireccion
+            // 
+            this.rtbDireccion.Enabled = false;
+            this.rtbDireccion.Location = new System.Drawing.Point(503, 36);
+            this.rtbDireccion.Name = "rtbDireccion";
+            this.rtbDireccion.Size = new System.Drawing.Size(173, 126);
+            this.rtbDireccion.TabIndex = 10;
+            this.rtbDireccion.Text = "";
+            // 
+            // txtApellido
+            // 
+            this.txtApellido.Enabled = false;
+            this.txtApellido.Location = new System.Drawing.Point(82, 70);
+            this.txtApellido.Name = "txtApellido";
+            this.txtApellido.Size = new System.Drawing.Size(294, 22);
+            this.txtApellido.TabIndex = 9;
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Enabled = false;
+            this.txtNombre.Location = new System.Drawing.Point(82, 36);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(294, 22);
+            this.txtNombre.TabIndex = 8;
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.rbOtro);
@@ -92,6 +126,45 @@
             this.groupBox3.TabIndex = 7;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Datos Bancarios";
+            // 
+            // rbOtro
+            // 
+            this.rbOtro.AutoSize = true;
+            this.rbOtro.Enabled = false;
+            this.rbOtro.Location = new System.Drawing.Point(241, 18);
+            this.rbOtro.Name = "rbOtro";
+            this.rbOtro.Size = new System.Drawing.Size(57, 21);
+            this.rbOtro.TabIndex = 2;
+            this.rbOtro.TabStop = true;
+            this.rbOtro.Text = "Otro";
+            this.rbOtro.UseVisualStyleBackColor = true;
+            this.rbOtro.CheckedChanged += new System.EventHandler(this.rbOtro_CheckedChanged);
+            // 
+            // rbMasculino
+            // 
+            this.rbMasculino.AutoSize = true;
+            this.rbMasculino.Enabled = false;
+            this.rbMasculino.Location = new System.Drawing.Point(125, 18);
+            this.rbMasculino.Name = "rbMasculino";
+            this.rbMasculino.Size = new System.Drawing.Size(92, 21);
+            this.rbMasculino.TabIndex = 1;
+            this.rbMasculino.TabStop = true;
+            this.rbMasculino.Text = "Masculino";
+            this.rbMasculino.UseVisualStyleBackColor = true;
+            this.rbMasculino.CheckedChanged += new System.EventHandler(this.rbMasculino_CheckedChanged);
+            // 
+            // rbFemenino
+            // 
+            this.rbFemenino.AutoSize = true;
+            this.rbFemenino.Enabled = false;
+            this.rbFemenino.Location = new System.Drawing.Point(6, 21);
+            this.rbFemenino.Name = "rbFemenino";
+            this.rbFemenino.Size = new System.Drawing.Size(91, 21);
+            this.rbFemenino.TabIndex = 0;
+            this.rbFemenino.TabStop = true;
+            this.rbFemenino.Text = "Femenino";
+            this.rbFemenino.UseVisualStyleBackColor = true;
+            this.rbFemenino.CheckedChanged += new System.EventHandler(this.rbFemenino_CheckedChanged);
             // 
             // label4
             // 
@@ -148,113 +221,35 @@
             this.groupBox2.Text = "Datos Bancarios";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
-            // label5
+            // btnLimpiar
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(18, 70);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(64, 17);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Cantidad";
+            this.btnLimpiar.Enabled = false;
+            this.btnLimpiar.Location = new System.Drawing.Point(601, 125);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
+            this.btnLimpiar.TabIndex = 14;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
-            // label7
+            // btnEjecutar
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(18, 143);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(131, 17);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Fecha de ejecucion";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.btnEjecutar.Enabled = false;
+            this.btnEjecutar.Location = new System.Drawing.Point(601, 70);
+            this.btnEjecutar.Name = "btnEjecutar";
+            this.btnEjecutar.Size = new System.Drawing.Size(75, 23);
+            this.btnEjecutar.TabIndex = 13;
+            this.btnEjecutar.Text = "Ejecutar";
+            this.btnEjecutar.UseVisualStyleBackColor = true;
+            this.btnEjecutar.Click += new System.EventHandler(this.btnEjecutar_Click);
             // 
-            // label6
+            // dtmEjecucion
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(18, 105);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 17);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Saldo";
-            // 
-            // txtNombre
-            // 
-            this.txtNombre.Enabled = false;
-            this.txtNombre.Location = new System.Drawing.Point(82, 36);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(294, 22);
-            this.txtNombre.TabIndex = 8;
-            // 
-            // txtApellido
-            // 
-            this.txtApellido.Enabled = false;
-            this.txtApellido.Location = new System.Drawing.Point(82, 70);
-            this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(294, 22);
-            this.txtApellido.TabIndex = 9;
-            // 
-            // txtCantidad
-            // 
-            this.txtCantidad.Enabled = false;
-            this.txtCantidad.Location = new System.Drawing.Point(88, 67);
-            this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(294, 22);
-            this.txtCantidad.TabIndex = 9;
-            // 
-            // txtSaldo
-            // 
-            this.txtSaldo.Enabled = false;
-            this.txtSaldo.Location = new System.Drawing.Point(88, 102);
-            this.txtSaldo.Name = "txtSaldo";
-            this.txtSaldo.Size = new System.Drawing.Size(294, 22);
-            this.txtSaldo.TabIndex = 10;
-            // 
-            // rtbDireccion
-            // 
-            this.rtbDireccion.Enabled = false;
-            this.rtbDireccion.Location = new System.Drawing.Point(503, 36);
-            this.rtbDireccion.Name = "rtbDireccion";
-            this.rtbDireccion.Size = new System.Drawing.Size(173, 126);
-            this.rtbDireccion.TabIndex = 10;
-            this.rtbDireccion.Text = "";
-            // 
-            // rbFemenino
-            // 
-            this.rbFemenino.AutoSize = true;
-            this.rbFemenino.Enabled = false;
-            this.rbFemenino.Location = new System.Drawing.Point(6, 21);
-            this.rbFemenino.Name = "rbFemenino";
-            this.rbFemenino.Size = new System.Drawing.Size(91, 21);
-            this.rbFemenino.TabIndex = 0;
-            this.rbFemenino.TabStop = true;
-            this.rbFemenino.Text = "Femenino";
-            this.rbFemenino.UseVisualStyleBackColor = true;
-            this.rbFemenino.CheckedChanged += new System.EventHandler(this.rbFemenino_CheckedChanged);
-            // 
-            // rbMasculino
-            // 
-            this.rbMasculino.AutoSize = true;
-            this.rbMasculino.Enabled = false;
-            this.rbMasculino.Location = new System.Drawing.Point(125, 18);
-            this.rbMasculino.Name = "rbMasculino";
-            this.rbMasculino.Size = new System.Drawing.Size(92, 21);
-            this.rbMasculino.TabIndex = 1;
-            this.rbMasculino.TabStop = true;
-            this.rbMasculino.Text = "Masculino";
-            this.rbMasculino.UseVisualStyleBackColor = true;
-            this.rbMasculino.CheckedChanged += new System.EventHandler(this.rbMasculino_CheckedChanged);
-            // 
-            // rbOtro
-            // 
-            this.rbOtro.AutoSize = true;
-            this.rbOtro.Enabled = false;
-            this.rbOtro.Location = new System.Drawing.Point(241, 18);
-            this.rbOtro.Name = "rbOtro";
-            this.rbOtro.Size = new System.Drawing.Size(57, 21);
-            this.rbOtro.TabIndex = 2;
-            this.rbOtro.TabStop = true;
-            this.rbOtro.Text = "Otro";
-            this.rbOtro.UseVisualStyleBackColor = true;
-            this.rbOtro.CheckedChanged += new System.EventHandler(this.rbOtro_CheckedChanged);
+            this.dtmEjecucion.Enabled = false;
+            this.dtmEjecucion.Location = new System.Drawing.Point(155, 143);
+            this.dtmEjecucion.Name = "dtmEjecucion";
+            this.dtmEjecucion.Size = new System.Drawing.Size(254, 22);
+            this.dtmEjecucion.TabIndex = 12;
             // 
             // groupBox4
             // 
@@ -306,22 +301,49 @@
             this.rbDeposito.UseVisualStyleBackColor = true;
             this.rbDeposito.CheckedChanged += new System.EventHandler(this.rbDeposito_CheckedChanged);
             // 
-            // dtnNacimiento
+            // txtSaldo
             // 
-            this.dtnNacimiento.Enabled = false;
-            this.dtnNacimiento.Location = new System.Drawing.Point(165, 112);
-            this.dtnNacimiento.Name = "dtnNacimiento";
-            this.dtnNacimiento.Size = new System.Drawing.Size(254, 22);
-            this.dtnNacimiento.TabIndex = 11;
-            this.dtnNacimiento.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            this.txtSaldo.Enabled = false;
+            this.txtSaldo.Location = new System.Drawing.Point(88, 102);
+            this.txtSaldo.Name = "txtSaldo";
+            this.txtSaldo.Size = new System.Drawing.Size(294, 22);
+            this.txtSaldo.TabIndex = 10;
             // 
-            // dtmEjecucion
+            // txtCantidad
             // 
-            this.dtmEjecucion.Enabled = false;
-            this.dtmEjecucion.Location = new System.Drawing.Point(155, 143);
-            this.dtmEjecucion.Name = "dtmEjecucion";
-            this.dtmEjecucion.Size = new System.Drawing.Size(254, 22);
-            this.dtmEjecucion.TabIndex = 12;
+            this.txtCantidad.Enabled = false;
+            this.txtCantidad.Location = new System.Drawing.Point(88, 67);
+            this.txtCantidad.Name = "txtCantidad";
+            this.txtCantidad.Size = new System.Drawing.Size(294, 22);
+            this.txtCantidad.TabIndex = 9;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(18, 70);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(64, 17);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Cantidad";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(18, 143);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(131, 17);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Fecha de ejecucion";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(18, 105);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(44, 17);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Saldo";
             // 
             // btnEdicion
             // 
@@ -343,27 +365,6 @@
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
-            // 
-            // btnEjecutar
-            // 
-            this.btnEjecutar.Enabled = false;
-            this.btnEjecutar.Location = new System.Drawing.Point(601, 70);
-            this.btnEjecutar.Name = "btnEjecutar";
-            this.btnEjecutar.Size = new System.Drawing.Size(75, 23);
-            this.btnEjecutar.TabIndex = 13;
-            this.btnEjecutar.Text = "Ejecutar";
-            this.btnEjecutar.UseVisualStyleBackColor = true;
-            this.btnEjecutar.Click += new System.EventHandler(this.btnEjecutar_Click);
-            // 
-            // btnLimpiar
-            // 
-            this.btnLimpiar.Enabled = false;
-            this.btnLimpiar.Location = new System.Drawing.Point(601, 125);
-            this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
-            this.btnLimpiar.TabIndex = 14;
-            this.btnLimpiar.Text = "Limpiar";
-            this.btnLimpiar.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
